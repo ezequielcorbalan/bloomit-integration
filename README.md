@@ -1,7 +1,7 @@
 # Bloomit IoT Device Integration Examples
 
 <p align="center">
-  <img src="https://app.bloomit.com.ar/img/logo-full.png" alt="Bloomit Logo" width="300">
+  <img src="https://bloomit.app/img/logo-full.png" alt="Bloomit Logo" width="300">
 </p>
 
 ## 🌱 What is Bloomit?
