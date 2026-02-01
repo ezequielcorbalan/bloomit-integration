@@ -4,18 +4,18 @@
   <img src="https://bloomit.app/img/logo-full.png" alt="Bloomit Logo" width="300">
 </p>
 
-## 🌱 What is Bloomit?
+## 🔌 What is Bloomit?
 
-**Bloomit** is an IoT plant monitoring platform that helps you keep your plants healthy by collecting and analyzing sensor data in real-time. Connect your custom ESP32, Arduino, or any HTTP-capable device to the Bloomit cloud and get actionable insights about your plants.
+**Bloomit** is an IoT platform that helps you connect your devices and sensors to the cloud. Collect, monitor, and analyze sensor data in real-time from anywhere. Connect your custom ESP32, Arduino, or any HTTP-capable device to the Bloomit cloud and get actionable insights from your IoT devices.
 
 ### Key Features
 
 | Feature | Description |
 |---------|-------------|
-| 📊 **Smart Monitoring** | Track soil humidity, temperature, air humidity, pH, TDS, and more with connected sensors |
-| 🌿 **Plant Insights** | Get personalized recommendations based on your plant species and sensor readings |
-| 🔔 **Real-time Alerts** | Receive notifications when your plants need attention or conditions are suboptimal |
-| 📱 **Multi-platform** | Monitor your plants from the mobile app (iOS/Android) or web dashboard |
+| 📊 **Smart Monitoring** | Track temperature, humidity, moisture, pH, TDS, and more with connected sensors |
+| 🔍 **Data Insights** | Get personalized insights and recommendations based on your sensor readings |
+| 🔔 **Real-time Alerts** | Receive notifications when your devices need attention or conditions are suboptimal |
+| 📱 **Multi-platform** | Monitor your devices from the mobile app (iOS/Android) or web dashboard |
 | 🔌 **Multi-device Support** | Connect and manage multiple Bloomit devices from a single account |
 
 ### Bloomit Ecosystem
@@ -51,7 +51,7 @@ This repository contains example implementations for integrating IoT devices wit
 The Bloomit Device API allows IoT devices to:
 
 - **Register** with a user account using a user token
-- **Send sensor data** (temperature, humidity, soil moisture, etc.)
+- **Send sensor data** (temperature, humidity, moisture, etc.)
 - **Log messages** for debugging and monitoring
 - **Retrieve device information** and MQTT subscriptions
 
@@ -159,7 +159,7 @@ Content-Type: application/json
 **Supported Sensor Types:**
 - `temperature` - Temperature in Celsius
 - `humidity` - Relative humidity percentage
-- `soil_humidity` - Soil moisture percentage
+- `soil_humidity` - Moisture/humidity percentage (can be used for soil, air, or any material)
 - `ph` - pH level
 - `tds` - Total dissolved solids (ppm)
 
