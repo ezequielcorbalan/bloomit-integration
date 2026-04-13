@@ -23,7 +23,7 @@
 | Platform | URL | Description |
 |----------|-----|-------------|
 | 🌐 **Website** | [bloomit.com.ar](https://bloomit.com.ar) | Main website and store |
-| 📱 **Web App** | [app.bloomit.com.ar](https://app.bloomit.com.ar) | Web dashboard for monitoring |
+| 📱 **Web App** | [bloomit.app](https://bloomit.app) | Web dashboard for monitoring |
 | 🔧 **Device API** | `device.api.bloomit.app` | API for IoT device integration |
 | 👤 **User API** | `user.api.bloomit.app` | API for user authentication |
 
@@ -508,7 +508,7 @@ This project is provided as example code for integrating with the Bloomit platfo
 | Resource | Link |
 |----------|------|
 | 🌐 **Website** | [bloomit.com.ar](https://bloomit.com.ar) |
-| 📱 **Web Dashboard** | [app.bloomit.com.ar](https://app.bloomit.com.ar) |
+| 📱 **Web Dashboard** | [bloomit.app](https://bloomit.app) |
 | 📧 **Developer Contact** | develop@bloomit.com.ar |
 | 📚 **API Documentation** | See [API Reference](#api-reference) section |
 
